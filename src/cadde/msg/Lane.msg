@@ -1,0 +1,6 @@
+float64 curvature
+float64 curvaturederivative
+float64 headingangle
+float64 lateraloffset
+float64 strength
+float64 curvelength

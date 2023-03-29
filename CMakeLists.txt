@@ -38,6 +38,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	"msg/State.msg"
 	"msg/GPS.msg"
 	"msg/IMU.msg"
+	"msg/route.msg"
 )
 ament_package()
 

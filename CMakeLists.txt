@@ -34,12 +34,13 @@ endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
 	"msg/Lane.msg"
-	"msg/RadarDet.msg"
 	"msg/State.msg"
 	"msg/GPS.msg"
 	"msg/IMU.msg"
 	"msg/Route.msg"
 	"msg/Ultrasonic.msg"
+  "msg/Reference.msg"
+  "msg/Controls.msg"
 )
 ament_package()
 
